@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#time-button").bind("click", function (event) {$.ajax({async:true, dataType:"html", success:function (data, textStatus) {$("#time").html(data);}, type:"post", url:"\/cake1\/words\/preguntar\/Ingles\/22"});
+return false;});});
